@@ -13,6 +13,8 @@ import java.util.Date;
 public class DataOutput {
     
     private String data;
+
+
     private Date dateTime;
     
     public DataOutput(String data,Date dateTime){
@@ -26,6 +28,14 @@ public class DataOutput {
     
     public Date getDateTime(){
         return this.dateTime;
+    }
+
+    public void setData(String data) {
+        this.data = data;
+    }
+
+    public void setDateTime(Date dateTime) {
+        this.dateTime = dateTime;
     }
     
     
